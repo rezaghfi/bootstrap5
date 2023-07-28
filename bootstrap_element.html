@@ -1,95 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-    <title>bootstrap_element</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <header class="navbar navbar-expand-sm bg-danger navbar-dark">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">contact</a>
-            </li>
-          </ul>
-      </header>
-      <main>
-        <!-- slider -->
-        <div class="carousel slide" id="id" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button data-bs-target="#id" data-bs-slide-to="0" class="active"></button>
-            <button data-bs-target="#id" data-bs-slide-to="1" ></button>
-            <button data-bs-target="#id" data-bs-slide-to="2" ></button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <title>bootsrap element</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="navbar navbar-expand-sm bg-danger navbar-dark my-2">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Product</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <!-- slider -->
+      <div class="carousel slide" id="id">
+        <div class="carousel-inner rounded-4">
+          <div class="carousel-item active">
+            <img src="./image/1.jpg" class="w-100" alt="">
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="w-100 h-100" src="./image/1.jpg" alt="">
-            </div>
-            <div class="carousel-item">
-              <img src="./image/2.jpg" alt="">
-            </div>
-            <div class="carousel-item">
-              <img src="./image/3.jpg" alt="">
-            </div>
+          <div class="carousel-item ">
+            <img src="./image/2.jpg" class="w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/3.jpg" class="w-100" alt="">
           </div>
           <button class="carousel-control-prev" data-bs-target="#id" data-bs-slide="prev">
-            <i class="bi bi-arrow-left-square bg-black"></i>
+            <h1 class="bi bi-arrow-left-circle"></h1>
           </button>
           <button class="carousel-control-next" data-bs-target="#id" data-bs-slide="next">
-            <i class="bi bi-arrow-right-square bg-black"></i>
+            <h1 class="bi bi-arrow-right-circle"></h1>
           </button>
         </div>
-
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <img src="./image/1.jpg" alt="" class="card-img-top">
-              <div class="card-body">
-                <h4 class="card-title">title</h4>
-                <p class="card-body">text of card text of cardtext of cardtext of cardtext of cardtext of card</p>
-                <a href="#" class="btn btn-primary">click</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="./image/1.jpg" alt="" class="card-img-top">
-              <div class="card-body">
-                <h4 class="card-title">title</h4>
-                <p class="card-body">text of card text of cardtext of cardtext of cardtext of cardtext of card</p>
-                <a href="#" class="btn btn-primary">click</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="./image/1.jpg" alt="" class="card-img-top">
-              <div class="card-body">
-                <h4 class="card-title">title</h4>
-                <p class="card-body">text of card text of cardtext of cardtext of cardtext of cardtext of card</p>
-                <a href="#" class="btn btn-primary">click</a>
-              </div>
+      </div>
+      <div class="row my-3">
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./image/1.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">title</h4>
+              <p>text of card. text of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of card</p>
+              <button class="btn btn-primary">Click</button>
             </div>
           </div>
         </div>
-      </main>
-      <footer class="bg-danger text-center text-white">
-        <span>footer text</span>
-      </footer>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./image/1.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">title</h4>
+              <p>text of card. text of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of card</p>
+              <button class="btn btn-primary">Click</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="./image/1.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">title</h4>
+              <p>text of card. text of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of cardtext of card</p>
+              <button class="btn btn-primary">Click</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-danger text-center text-white py-3 fixed-bottom mx-3">
+      <span>text of footer</span>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
 </html>
