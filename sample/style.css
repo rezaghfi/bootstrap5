@@ -1,0 +1,13 @@
+*{
+    direction: rtl;
+    font-family: uu;
+    font-size: 20px;
+}
+body{
+    background: url("piccc.jpg") no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: uu;
+    src: url(font/iranyekanwebbold.ttf);
+}
