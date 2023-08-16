@@ -1,3 +1,13 @@
 *{
   direction: rtl;
+  font-family: parastoo;
+  font-size: 22px;
+}
+.top{
+  background:rgba(204, 204, 204) url("section1.jpg") no-repeat;
+  background-size: cover;
+}
+@font-face {
+  font-family: parastoo;
+  src: url(Parastoo.woff);
 }
